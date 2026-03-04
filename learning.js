@@ -55,3 +55,4 @@ let d = 12345e-6;
 let c=5;
 let v = 9;
 let b = 74;
+let n = 9843;
