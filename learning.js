@@ -53,3 +53,4 @@ let s = 12345e6;
 let d = 12345e-6;
 
 let c=5;
+let v = 9;
