@@ -103,3 +103,9 @@ let total = 10 - (price * discount)
 let firstName = "Ali"
 let surName = "Mukhtarli"
 let nameSurname = `Welcome ${firstName}, ${surName}`
+
+// concat() method
+
+let esse = "Hello";
+let esse1 = "World";
+let esseAll = esse.concat(" ",esse1);
