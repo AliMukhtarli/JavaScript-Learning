@@ -98,3 +98,8 @@ let isMember = true;
 let discount = isMember ? 0.2 : 0;
 let total = 10 - (price * discount)
 
+// On String side on JavaScript string templates is most usefull thing
+
+let firstName = "Ali"
+let surName = "Mukhtarli"
+let nameSurname = `Welcome ${firstName}, ${surName}`
