@@ -52,3 +52,49 @@ let a = Bigint(87632178680716507561745607384561761053452350812345678954129874913
 let s = 12345e6;
 let d = 12345e-6;
 
+// as in every language there also have if, else, switch, else if, ? : (Ternary operators)
+ 
+let g = 4;
+if (g < 6){
+   g = g + 5;
+} else if (g < 5) {
+   g = g + 4;
+} else {
+   g = g + 3;
+}
+
+// or we can use switch
+
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+
+// or we can use just ? : (Ternary operators)
+
+let age = 18;
+let text = (age < 18 ) ? "Minor" : "Adult";
+
+let price =  10;
+let isMember = true;
+let discount = isMember ? 0.2 : 0;
+let total = 10 - (price * discount)
+
