@@ -111,4 +111,3 @@ let esse1 = "World";
 let esseAll = esse.concat(" ",esse1); 
 let  b = 4;
 let n = 5;
-let m = 6;
