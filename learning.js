@@ -145,3 +145,24 @@ let lower = text4.toLowerCase();
 let text5 = "   Hello   ";
 let trimmed = text5.trim();
 
+// Padding
+
+let num = "5";
+let padded = num.padStart(3, "0"); // 005
+
+// Accessing characters
+
+let text6 = "JavaScript";
+let char = text6.charAt(0); // J
+
+// Splitting string
+
+let text7 = "a,b,c,d";
+let arr = text7.split(",");
+
+// Template literals can be multiline
+
+let multiLine = `This is line one
+This is line two
+This is line three`;
+
