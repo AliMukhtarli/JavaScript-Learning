@@ -235,3 +235,29 @@ let user = {
 
 let message = user.greet();
 
+/* Now lets talk about Functions */
+
+// Function Declaration
+
+function sum(a, b){
+   return a + b;
+}
+
+let result = sum(5, 3);
+
+// Function Expression
+
+const multiply = function(a, b){
+   return a * b;
+};
+
+let result2 = multiply(4, 2);
+
+// Arrow Function
+
+const divide = (a, b) => {
+   return a / b;
+};
+
+let result3 = divide(10, 2);
+
