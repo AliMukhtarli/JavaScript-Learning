@@ -190,4 +190,48 @@ cars.push("Toyota"); // add to end
 
 cars.pop(); // remove last
 
-/
+// shift and unshift
+
+cars.shift(); // remove first
+cars.unshift("Ford"); // add to start
+
+// Looping through array
+
+for (let i = 0; i < cars.length; i++) {
+   console.log(cars[i]);
+}
+
+// forEach method
+
+cars.forEach(function(item){
+   console.log(item);
+});
+
+/* Now lets talk about Objects. Object is collection of key-value pairs */
+
+let person = {
+   firstName: "Ali",
+   lastName: "Mukhtarli",
+   age: 21
+};
+
+// Accessing object properties
+
+let name1 = person.firstName;
+let name2 = person["lastName"];
+
+// Adding new property
+
+person.country = "Azerbaijan";
+
+// Object methods
+
+let user = {
+   name: "Ali",
+   greet: function(){
+      return "Hello " + this.name;
+   }
+};
+
+let message = user.greet();
+
