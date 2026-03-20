@@ -285,3 +285,22 @@ function myFunction(){
    let localVar = "I am local";
    console.log(localVar);
 }
+
+// console.log(localVar); // Error because its local
+
+// Block Scope (let and const)
+
+if (true){
+   let blockVar = "I am block scoped";
+   console.log(blockVar);
+}
+
+// console.log(blockVar); // Error
+
+// var is NOT block scoped
+
+if (true){
+   var x = 10;
+}
+
+console.log(x); // works because var is function scoped
