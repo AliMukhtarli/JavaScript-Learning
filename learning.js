@@ -261,3 +261,11 @@ const divide = (a, b) => {
 
 let result3 = divide(10, 2);
 
+// Short arrow function
+
+const square = x => x * x;
+
+let result4 = square(5);
+
+/* Now lets talk about Scope. Scope means where variables are accessible */
+
