@@ -166,3 +166,28 @@ let multiLine = `This is line one
 This is line two
 This is line three`;
 
+/* Now lets talk about Arrays. Arrays can hold multiple values in one variable */
+
+let cars = ["BMW", "Mercedes", "Tesla"];
+
+// Accessing elements
+
+let car = cars[0];
+
+// Changing elements
+
+cars[1] = "Audi";
+
+// Array length
+
+let carLength = cars.length;
+
+// Adding elements
+
+cars.push("Toyota"); // add to end
+
+// Removing elements
+
+cars.pop(); // remove last
+
+/
