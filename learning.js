@@ -269,3 +269,19 @@ let result4 = square(5);
 
 /* Now lets talk about Scope. Scope means where variables are accessible */
 
+// Global Scope
+
+let globalVar = "I am global";
+
+function testScope(){
+   console.log(globalVar); // accessible
+}
+
+testScope();
+
+// Function Scope
+
+function myFunction(){
+   let localVar = "I am local";
+   console.log(localVar);
+}
